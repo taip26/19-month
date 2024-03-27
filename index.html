@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <title>HAPPY 19th MONTHIVERSARY</title>
+</head>
+<body>
+    <div class="title">HAPPY 19th MONTHIVERSARY CHIEF!</div>
+    <div class="prompt">Answer this question to reveal the prize! <br>
+                        Who loves who most?</div>
+    <div class="wrapper">
+        <a href="poem.html" class="eepy">eepy loves chief most!</a>
+        <a class="chief">chief loves eepy most!</a>
+    </div>
+    <script>
+        chief = document.querySelector('.chief');
+        chief.addEventListener('mouseover', () => {
+            chief.style.position = 'absolute';
+            const i = 120 + Math.floor(Math.random() * (window.innerWidth - 140));
+            const j = 12 + Math.floor(Math.random() * (window.innerHeight - 20));
+            chief.style.left = i + 'px';
+            chief.style.top = j + 'px';
+            console.log(chief.innerHeight)
+        });
+    </script>
+</body>
+</html>

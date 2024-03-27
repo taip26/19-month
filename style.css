@@ -1,0 +1,49 @@
+body {
+    font-family: 'Gabarito', sans-serif;
+    text-align: center;
+    background-color: #db93db;
+}
+
+.title {
+    font-size: 600%;
+    font-weight: 700;
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s infinite;
+    background-size: 400% 100%;
+}
+
+.prompt {
+    margin: 1%;
+    font-size: 24px;
+}
+
+.eepy, .chief {
+    background-color: rgb(219, 212, 212);
+    text-decoration: none;
+    color: darkviolet;
+    margin: 12px;
+    padding: 4px;
+    border: 1px solid darkviolet;
+    border-radius: 3px;
+}
+
+/* .chief {
+    position: absolute;
+} */
+
+.eepy:hover, .chief:hover {
+    background-color: rgb(199, 192, 192);
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}

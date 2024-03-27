@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gabarito', sans-serif;
+    background-color: #db93db;
+}
+
+p {
+    font-size: larger;
+}
+
+.wrapper {
+    display: flex;
+    gap: 2%;
+}
+
+.butt {
+    background-color: rgb(219, 212, 212);
+    text-decoration: none;
+    color: darkviolet;
+    padding: 4px;
+    border: 1px solid darkviolet;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 1%;
+}
+
+img {
+    width: 600px;
+    height: 450px;
+    /* position: absolute;
+    right: 1%;
+    top: 15%; */
+}
